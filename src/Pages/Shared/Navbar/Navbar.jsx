@@ -3,8 +3,18 @@ import { HiOutlineMenuAlt3 } from "react-icons/hi";
 import logoi from '../../../assets/P_logo.png';
 import { MdFileDownload } from "react-icons/md";
 import { Link } from 'react-scroll';
-
+const cv = 'cv.pdf'
 const Navbar = () => {
+  const downloadFileAtURL=(url)=>{
+    const filename = 'Raisa_CV';
+    const aTag = document.createElement('a');
+    aTag.href=url;
+    aTag.setAttribute('download', filename);
+    document.body.appendChild(aTag);
+    aTag.click();
+    aTag.remove();
+  }
+
   return (
     <div className="navbar bg-[#0B1930] fixed z-20">
       <div className="container mx-auto flex justify-between">
@@ -12,7 +22,7 @@ const Navbar = () => {
           <img src={logoi} className="w-12 h-12 rounded-full border-2 p-1" alt="logo" />
         </div>
         <div className="flex-none hidden md:flex">
-          <ul className='flex gap-4 text-[#CCD6F6]'>
+          <ul className='flex gap-6 text-[#CCD6F6]'>
             <li>
               <Link to="section1" className="cursor-pointer hover:text-[#64FFDA]" activeClass="active-link" smooth={true} duration={500}>
                 About
@@ -39,7 +49,7 @@ const Navbar = () => {
               </Link>
             </li>
             <li>
-              <a className="border text-[#64FFDA] px-2 flex rounded-lg justify-center items-center cursor-pointer hover:bg-[#64FFDA] hover:text-[#0B1930]">
+              <a className="border text-[#64FFDA] px-2 flex rounded-lg justify-center items-center cursor-pointer hover:bg-[#64FFDA] hover:text-[#0B1930]" onClick={()=>{downloadFileAtURL(cv)}}>
                 <MdFileDownload /> Resume
               </a>
             </li>
@@ -82,7 +92,7 @@ const Navbar = () => {
                   </Link>
                 </li>
                 <li>
-                  <a className="border text-[#64FFDA] px-2 flex rounded-lg justify-center items-center cursor-pointer hover:bg-[#64FFDA] hover:text-[#0B1930]">
+                  <a className="border text-[#64FFDA] px-2 flex rounded-lg justify-center items-center cursor-pointer hover:bg-[#64FFDA] hover:text-[#0B1930]" onClick={()=>{downloadFileAtURL(cv)}}>
                     <MdFileDownload /> Resume
                   </a>
                 </li>
