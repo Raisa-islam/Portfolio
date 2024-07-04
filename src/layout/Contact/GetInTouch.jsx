@@ -2,10 +2,16 @@
 import { FaFacebookF } from "react-icons/fa";
 import { FiGithub } from "react-icons/fi";
 import { FaLinkedinIn } from "react-icons/fa6";
+import AOS from 'aos';
+import 'aos/dist/aos.css';
+import { useEffect } from "react";
 
 const GetInTouch = () => {
+    useEffect(() => {
+        AOS.init();
+    }, []);
     return (
-        <div className='flex flex-col md:flex-row gap-6 justify-between items-center'>
+        <div className='flex flex-col md:flex-row gap-6 justify-between items-center data-aos="fade-up"'>
             <div className='flex flex-col gap-4 md:w-1/2'>
                 <h3 className='font-bold text-white text-2xl'>Get In Touch</h3>
             <p className='text-gray-400'>I am interested in working with new ideas and exploring potential collaborations. Let's discuss how we can create something amazing together!</p>

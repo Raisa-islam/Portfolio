@@ -18,7 +18,7 @@ const Home = () => {
         <title>Raisa Islam | Web Developer</title>
       </Helmet>
       <Navbar />
-      <div className='container mx-auto flex justify-between'>
+      <div className='container mx-auto flex justify-between max-w-[90%]'>
         <div className='hidden md:flex w-6'>
           <div className=' flex flex-col gap-6 text-xl justify-center items-center fixed bottom-0 text-[#A8B2D1]'>
 

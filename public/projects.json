@@ -1,50 +1,54 @@
 [
   {
     "id": 1,
-    "title": "Personal Portfolio",
-    "githubLink": "https://github.com/username/portfolio",
-    "liveLink": "https://username.github.io/portfolio",
-    "description": "A personal portfolio website to showcase my projects and skills.",
+    "title": "ArtnCraftStore",
+    "githubLink": "https://github.com/Raisa-islam/ArtnCraftStore",
+    "liveLink": "https://artncraftstore-7c050.web.app/",
+    "description": "Art Fizz is a dynamic web application built using React and Vite, designed to create a seamless experience for art enthusiasts.",
     "techUsed": ["HTML", "CSS", "JavaScript", "React"]
   },
   {
     "id": 2,
-    "title": "E-commerce Website",
-    "githubLink": "https://github.com/username/e-commerce",
-    "liveLink": "https://ecommerce.example.com",
-    "description": "An e-commerce platform with product listings, shopping cart, and checkout features.",
-    "techUsed": ["Node.js", "Express", "MongoDB", "React", "Redux"]
+    "title": "VolunAid",
+    "githubLink": "https://github.com/Raisa-islam/VolunAid",
+    "liveLink": "https://volunteermanagement-7ef6d.web.app/",
+    "description": "Volun Aid provides a seamless and secure platform for connecting volunteers with opportunities. Users can easily post and apply for volunteer roles, manage their postings, and explore opportunities through customizable views.",
+    "techUsed": ["Node.js", "Firebase", "MongoDB", "React"]
   },
   {
     "id": 3,
-    "title": "Weather App",
+    "title": "BlissAbode",
     "githubLink": "https://github.com/username/weather-app",
-    "liveLink": "https://weatherapp.example.com",
-    "description": "A web application that provides current weather information based on user's location.",
-    "techUsed": ["HTML", "CSS", "JavaScript", "React", "OpenWeather API"]
+    "liveLink": "https://b9a9-92593.web.app/",
+    "description": "Bliss Abode is a comprehensive platform for finding dream homes, offering secure multi-option authentication, curated property listings, favorites management, profile updates, and detailed property info for logged-in users."
+
+,
+    "techUsed": ["HTML", "CSS", "JavaScript", "React"]
   },
   {
     "id": 4,
-    "title": "Chat Application",
-    "githubLink": "https://github.com/username/chat-app",
-    "liveLink": "https://chatapp.example.com",
-    "description": "A real-time chat application with private and group chat features.",
-    "techUsed": ["Node.js", "Socket.io", "Express", "React"]
+    "title": "ArtnCraftStore",
+    "githubLink": "https://github.com/Raisa-islam/ArtnCraftStore",
+    "liveLink": "https://artncraftstore-7c050.web.app/",
+    "description": "Art Fizz is a dynamic web application built using React and Vite, designed to create a seamless experience for art enthusiasts.",
+    "techUsed": ["HTML", "CSS", "JavaScript", "React"]
   },
   {
     "id": 5,
-    "title": "Task Manager",
-    "githubLink": "https://github.com/username/task-manager",
-    "liveLink": "https://taskmanager.example.com",
-    "description": "A task management app to help users track their daily activities and to-do lists.",
-    "techUsed": ["Vue.js", "Firebase", "CSS"]
+    "title": "VolunAid",
+    "githubLink": "https://github.com/Raisa-islam/VolunAid",
+    "liveLink": "https://volunteermanagement-7ef6d.web.app/",
+    "description": "Volun Aid provides a seamless and secure platform for connecting volunteers with opportunities. Users can easily post and apply for volunteer roles, manage their postings, and explore opportunities through customizable views.",
+    "techUsed": ["Node.js", "Firebase", "MongoDB", "React"]
   },
   {
     "id": 6,
-    "title": "Blog Platform",
-    "githubLink": "https://github.com/username/blog-platform",
-    "liveLink": "https://blogplatform.example.com",
-    "description": "A blogging platform where users can create, edit, and delete their blog posts.",
-    "techUsed": ["Django", "Python", "Bootstrap", "SQLite"]
+    "title": "BlissAbode",
+    "githubLink": "https://github.com/username/weather-app",
+    "liveLink": "https://b9a9-92593.web.app/",
+    "description": "Bliss Abode is a comprehensive platform for finding dream homes, offering secure multi-option authentication, curated property listings, favorites management, profile updates, and detailed property info for logged-in users. "
+
+,
+    "techUsed": ["HTML", "CSS", "JavaScript", "React"]
   }
 ]

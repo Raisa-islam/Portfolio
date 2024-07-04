@@ -1,15 +1,20 @@
 
 import { FiGithub } from "react-icons/fi";
 import { LiaExternalLinkAltSolid } from "react-icons/lia";
-
+import AOS from 'aos';
+import 'aos/dist/aos.css';
+import { useEffect } from "react";
 
 const ProjectCard = ({item}) => {
       
-    const {title, githubLink, liveLink, description, techUsed} = item;
+    const {id, title, githubLink, liveLink, description, techUsed} = item;
     // console.log(item)
+    useEffect(() => {
+      AOS.init();
+  }, []);
     
     return (
-        <div className="card bg-[#112240] hover:bg-[#12274b]">
+        <div className="card bg-[#112240] hover:bg-[#12274b]" data-aos={id % 2 === 0 ? 'fade-left' : 'fade-down-right'}>
         <div className="card-body">
           <h2 className="card-title text-[#CCD6F6]">{title}</h2>
           <p className='text-[#959fba] text-md'>{description}</p>
