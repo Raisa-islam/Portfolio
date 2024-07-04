@@ -1,3 +1,13 @@
+/* src/index.css */
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer utilities {
+  .writing-mode-vertical-rl {
+    writing-mode: vertical-rl;
+  }
+  .text-orientation-mixed {
+    text-orientation: mixed;
+  }
+}
