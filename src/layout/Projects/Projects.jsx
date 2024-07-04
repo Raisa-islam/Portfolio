@@ -9,7 +9,7 @@ const Projects = () => {
         .then(data => setProjects(data));
 
     }, [])
-    console.log(projects)
+    // console.log(projects)
     return (
         <div>
              <h2 className="text-2xl font-bold text-white">Projects</h2>

@@ -6,7 +6,7 @@ import { LiaExternalLinkAltSolid } from "react-icons/lia";
 const ProjectCard = ({item}) => {
       
     const {title, githubLink, liveLink, description, techUsed} = item;
-    console.log(item)
+    // console.log(item)
     
     return (
         <div className="card bg-[#112240] hover:bg-[#12274b]">

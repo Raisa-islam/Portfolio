@@ -6,7 +6,7 @@ import { Link } from 'react-scroll';
 
 const Navbar = () => {
   return (
-    <div className="navbar bg-[#0B1930] fixed">
+    <div className="navbar bg-[#0B1930] fixed z-20">
       <div className="container mx-auto flex justify-between">
         <div className="flex-1">
           <img src={logoi} className="w-12 h-12 rounded-full border-2 p-1" alt="logo" />

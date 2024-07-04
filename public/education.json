@@ -1,0 +1,30 @@
+[
+    {
+      "id": 1,
+      "instituteName": "University of Dhaka",
+      "degreeName": "Bachelor of Science in Computer Science",
+      "yearStart": 2020,
+      "yearEnd": 2024,
+      "subject": "Computer Science and Engineering",
+      "grade": "X:00"
+    },
+    {
+      "id": 2,
+      "instituteName": "Holy Cross College",
+      "degreeName": "Higher Secondary School Certificate",
+      "yearStart": 2017,
+      "yearEnd": 2019,
+      "subject": "Science",
+      "grade": "x:00"
+    },
+    {
+      "id": 3,
+      "instituteName": "Monipur High School and College",
+      "degreeName": "Secondary School Certificate",
+      "yearStart": 2007,
+      "yearEnd": 2017,
+      "subject": "CSE",
+      "grade": "x:00"
+    }
+  ]
+  
