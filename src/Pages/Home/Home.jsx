@@ -10,6 +10,7 @@ import Skills from '../../layout/Skills/Skills';
 import About from '../../layout/About/About';
 import Footer from '../Shared/Footer/Footer'
 import Banner from '../../layout/Banner/Banner';
+import { Link } from 'react-scroll';
 
 const Home = () => {
   return (
@@ -61,7 +62,7 @@ const Home = () => {
         </div>
         <div className='w-6'>
         <div className=' flex flex-col gap-4 text-xl justify-center items-center fixed bottom-0'>
-        <span className="vertical-text text-xl writing-mode-vertical-rl text-orientation-mixed text-[#A8B2D1]">raisa.isl683@gmail.com</span>
+        <Link to="section5"><span className="vertical-text text-xl writing-mode-vertical-rl text-orientation-mixed text-[#A8B2D1] cursor-pointer">raisa.isl683@gmail.com</span></Link>
         <div className='w-[2px] h-24 bg-[#A8B2D1]'>
 
             </div>
