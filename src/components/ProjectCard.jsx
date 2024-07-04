@@ -18,7 +18,7 @@ const ProjectCard = ({item}) => {
         <div className="card-body">
           <h2 className="card-title text-[#CCD6F6]">{title}</h2>
           <p className='text-[#959fba] text-md'>{description}</p>
-          <div className="flex flex-row gap-3">
+          <div className="flex flex-col md:flex-row gap-3">
             {techUsed.map(x=><> <div className="text-[#8892AF]">{x}</div></>)}
           </div>
           <div className="card-actions justify-end text-[#A8B2D1] text-xl mt-2">

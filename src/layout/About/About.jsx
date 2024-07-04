@@ -1,8 +1,12 @@
-import React from 'react';
-
+import React, { useEffect } from 'react';
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 const About = () => {
+    useEffect(() => {
+        AOS.init();
+    }, []);
     return (
-        <div>
+        <div data-aos="fade-up">
             <h2 className="text-2xl font-bold text-white">About Me</h2>
             <div className=' text-gray-200 mt-12'>
             <p>Hello! My name is Raisa Islam, and I am a passionate and enthusiastic final-year Computer Science and Engineering student. I love creating and exploring innovative solutions in the digital world. My interest in web development and programming began during my academic journey, where I immersed myself in various projects and self-initiated endeavors to deepen my understanding of software development.</p><br></br>
