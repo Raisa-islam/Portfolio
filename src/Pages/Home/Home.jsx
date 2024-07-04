@@ -8,7 +8,7 @@ import Education from '../../layout/Education/Education';
 import Projects from '../../layout/Projects/Projects';
 import Skills from '../../layout/Skills/Skills';
 import About from '../../layout/About/About';
-
+import Footer from '../Shared/Footer/Footer'
 
 const Home = () => {
   return (
@@ -21,9 +21,10 @@ const Home = () => {
         <div className='hidden md:flex w-6'>
           <div className=' flex flex-col gap-6 text-xl justify-center items-center fixed bottom-0 text-[#A8B2D1]'>
 
-            <FiGithub />
-            <FaLinkedinIn />
-            <FaFacebookF />
+            <a href="https://github.com/Raisa-islam"><FiGithub className='cursor-pointer' /></a>
+            <a href="https://www.linkedin.com/in/raisa-islam62/"><FaLinkedinIn className='cursor-pointer' /></a>
+            <a href=""><FaFacebookF className='cursor-pointer'/></a>
+            
             <div className='w-[2px] h-24 bg-[#A8B2D1]'>
 
             </div>
@@ -31,7 +32,7 @@ const Home = () => {
 
 
         </div>
-        <div className='border w-full'>
+        <div className='md:px-4 w-[90%]'>
           <div id="section1" className="section py-20">
             <About/>
            
@@ -49,10 +50,13 @@ const Home = () => {
           <div id="section5" className="section py-20">
             <GetInTouch/>
           </div>
+          <div>
+            <Footer/>
+          </div>
         </div>
         <div className='w-6'>
         <div className=' flex flex-col gap-4 text-xl justify-center items-center fixed bottom-0'>
-        <span className="vertical-text text-xl writing-mode-vertical-rl text-orientation-mixed text-[#A8B2D1]">email@example.com</span>
+        <span className="vertical-text text-xl writing-mode-vertical-rl text-orientation-mixed text-[#A8B2D1]">raisa.isl683@gmail.com</span>
         <div className='w-[2px] h-24 bg-[#A8B2D1]'>
 
             </div>

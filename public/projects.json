@@ -1,0 +1,50 @@
+[
+  {
+    "id": 1,
+    "title": "Personal Portfolio",
+    "githubLink": "https://github.com/username/portfolio",
+    "liveLink": "https://username.github.io/portfolio",
+    "description": "A personal portfolio website to showcase my projects and skills.",
+    "techUsed": ["HTML", "CSS", "JavaScript", "React"]
+  },
+  {
+    "id": 2,
+    "title": "E-commerce Website",
+    "githubLink": "https://github.com/username/e-commerce",
+    "liveLink": "https://ecommerce.example.com",
+    "description": "An e-commerce platform with product listings, shopping cart, and checkout features.",
+    "techUsed": ["Node.js", "Express", "MongoDB", "React", "Redux"]
+  },
+  {
+    "id": 3,
+    "title": "Weather App",
+    "githubLink": "https://github.com/username/weather-app",
+    "liveLink": "https://weatherapp.example.com",
+    "description": "A web application that provides current weather information based on user's location.",
+    "techUsed": ["HTML", "CSS", "JavaScript", "React", "OpenWeather API"]
+  },
+  {
+    "id": 4,
+    "title": "Chat Application",
+    "githubLink": "https://github.com/username/chat-app",
+    "liveLink": "https://chatapp.example.com",
+    "description": "A real-time chat application with private and group chat features.",
+    "techUsed": ["Node.js", "Socket.io", "Express", "React"]
+  },
+  {
+    "id": 5,
+    "title": "Task Manager",
+    "githubLink": "https://github.com/username/task-manager",
+    "liveLink": "https://taskmanager.example.com",
+    "description": "A task management app to help users track their daily activities and to-do lists.",
+    "techUsed": ["Vue.js", "Firebase", "CSS"]
+  },
+  {
+    "id": 6,
+    "title": "Blog Platform",
+    "githubLink": "https://github.com/username/blog-platform",
+    "liveLink": "https://blogplatform.example.com",
+    "description": "A blogging platform where users can create, edit, and delete their blog posts.",
+    "techUsed": ["Django", "Python", "Bootstrap", "SQLite"]
+  }
+]
