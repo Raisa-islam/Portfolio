@@ -9,6 +9,7 @@ import Projects from '../../layout/Projects/Projects';
 import Skills from '../../layout/Skills/Skills';
 import About from '../../layout/About/About';
 import Footer from '../Shared/Footer/Footer'
+import Banner from '../../layout/Banner/Banner';
 
 const Home = () => {
   return (
@@ -32,7 +33,11 @@ const Home = () => {
 
 
         </div>
+       
         <div className='md:px-4 w-[90%]'>
+        <div>
+          <Banner/>
+        </div>
           <div id="section1" className="section py-20">
             <About/>
            
