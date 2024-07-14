@@ -14,14 +14,14 @@ const EducationCard = ({item}) => {
             AOS.init();
         }, []);
     return (
-        <div className="card bg-[#12274b] " data-aos="flip-left">
+        <div className="card bg-[#12274b]" data-aos="fade-up">
 
             <div className="card-body text-[#a1acc2]" >
                 <p className='text-white font-semibold text-lg'><span>{yearStart} </span>- {yearEnd}</p>
                 <h2 className="card-title">{instituteName}</h2>
                 <p>{degreeName}</p>
-                <p>{subject}</p>
-                <p>Grade: {grade}</p>
+               
+               
 
             </div>
         </div>
